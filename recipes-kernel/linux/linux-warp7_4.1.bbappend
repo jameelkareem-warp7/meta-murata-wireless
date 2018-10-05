@@ -3,8 +3,8 @@
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI_append = " file://defconfig-murata-warp.patch \
-                   file://0002-murata-dts-3.3v.patch"
+SRC_URI_append = " file://0001-murata-defconfig-fmac-warp.patch \
+                   file://0002-murata-warp7-dts.patch"
 
 #SRC_URI_append = " file://defconfig-murata-warp.patch"
 #SRC_URI_append += " file://0008-murata-imx7-warp-dts.patch"
